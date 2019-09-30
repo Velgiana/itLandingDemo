@@ -1,0 +1,43 @@
+@media (min-width:1900px) {
+	html {
+		font-size: 11px;
+	}
+}
+
+@media (max-width:1899px) and (min-width:1400px) {
+	html {
+		font-size: 11px;
+	}
+}
+
+@media (max-width:1399px) and (min-width:1200px) {
+	html {
+		font-size: 10px;
+	}
+}
+
+@media (max-width:1199px) and (min-width:990px) {
+	html {
+		font-size: 8px;
+	}
+}
+
+@media (min-width:990px) {
+	.m-menu-link {
+		display: none;
+	}
+}
+
+@media (max-width:989px) {
+	html {
+		font-size: 9px;
+	}
+
+	.m-menu-link {
+		display: block;
+	}
+
+	.visible-lg {
+		display: none;
+	}
+}

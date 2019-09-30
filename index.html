@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head  lang="ru" dir="ltr">
-	 <meta charset="utf-8">
-	<link href="css/normalize.css" rel="stylesheet" media="all">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/normalize.css"rel="stylesheet" media="all">
+	<link rel="stylesheet" href="css/style.css"rel="stylesheet" media="all">
+	<link rel="stylesheet" href="css/media.css"rel="stylesheet" media="all">
+	<link rel="stylesheet" href="css/menu.css"rel="stylesheet" media="all">
+  <link rel="stylesheet" href="css/main.css"rel="stylesheet" media="all">
+  
+  <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="js/menu.js"></script>
   
   <title>IT WEB site</title>
 </head>
@@ -16,8 +24,49 @@
 <section class="hero_content background"> <!-- Начало секции  -->
 
   <div class="container container--bg">
+      <header>
+					<nav class= "navigation-menu visible-lg">
+						<ul class="menu">
+							<li  class="menu__item"><a href="#">Главная</a></li>
+							<li class="menu__item"><a href="#">Наши проекты</a></li>
+							<li class="menu__item"><a href="#">Услуги</a></li>
+							<li class="menu__item"><a href="#">Новости</a></li>
+							<li class="menu__item"><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+					<nav>
+						<ul  class="m-menu">
+							<li class="close-menu">&times;</li>
+							<li class="m-menu-link"><a href="#">Главная</a></li>
+							<li class="m-menu-link "><a href="#">Наши проекты</a></li>
+							<li class="m-menu-link "><a href="#">Услуги</a></li>
+							<li class="m-menu-link "><a href="#">Новости</a></li>
+              <li class="m-menu-link "><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+					<a href="#" class="m-menu-link">
+						<i class="fa fa-bars"></i>
+					</a>
+				</header>
+				
+				<aside class="mainInfo section__header--bg">
+            <div class="section__subtitle section__subtitle--sm"> Передовая IT студия </div>
+            <h2 class="section__title section__title--bg"> Мы создаем легкие решения сложных задач и проблем </h2>
+      
+            <div class="hero_content button">
+              <button> Наши проекты</button>
+            </div>
+				</aside>
+				<!-- <div class="arrowObolonka">
+					<a href="#plan" >
+						<div class="arrowStyle">
+							<img src="images/arrow.png" alt="Активація переходу на блок з планами">
+						</div>
+					</a> -->
 
-         <div class="navigation-menu"> 
+
+
+         <!-- <div class="navigation-menu"> 
     
   <nav class="nav">
     <ul class="menu">
@@ -28,7 +77,7 @@
          <li class="menu__item"><a href="#">Контакты</a></li>
     </ul>
   </nav>
-    <div class="line-item"> <!-- Горизонтальная серая линия  --></div>
+    <div class="line-item"> </div>
 </div>
     
      <header class="section__header--bg">
@@ -41,7 +90,7 @@
     </header>
 
 
-  </div>
+  </div> -->
 </section>
 
 

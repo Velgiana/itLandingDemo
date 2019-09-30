@@ -189,18 +189,9 @@ line-height: 21px;
 color: #999999;
 }
 
-
-.logo{
-
-}
 /******************************
 *** NAVIGATION MENU ***
 *******************************/
-.navigation-menu .line-item{
-  margin-top: -21px;
-  border: 1px solid  #A1A1A1;
-}
-
 .menu {
 /* Выравниваем пункты меню по горизонтали */
 display: -webkit-box;
@@ -211,13 +202,9 @@ display: flex;
 -webkit-box-pack: end;
         justify-content: flex-end;
 list-style: none;
-color: #ffffff;
+color: #fff;
 }
 
-/*.menu {
-border-bottom: 1px solid  #999999;
-padding: 0 2em;
-}*/
 
 .menu > li {
 /* Даем отступы по бокам (если будет больше пунктов, то они не будут прилипать друг к другу...) */
@@ -288,6 +275,32 @@ transition: transform .45s cubic-bezier(.16,.53,.15,.99) 0s, -webkit-transform .
 -webkit-transform: scaleX(1);
         transform: scaleX(1);
 }
+.arrowObolonka {
+	position: relative;
+	z-index: 2;
+	height: 15vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.arrowStyle {
+	background-color: #fff;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: 55px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223, 0.5);
+}
+@media screen and (max-width:768px){
+  .navigation-menu{
+     font-size: 
+
+  }
+
+}
+
 
 /******************************
 *** HERO CONTENT ***
