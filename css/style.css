@@ -543,6 +543,7 @@ text-align: left;
 }
 .count__item {
  position: relative;
+ margin-right: 3rem;
 }
 
 .count__item p{
@@ -678,8 +679,8 @@ margin-top: 20px;
 
 form{
 position: relative;
-width: 489px;
-height: 45px;
+width: 31em;
+height: 3em;
 background: #FFFFFF;
 border: 1px solid #F2F2F2;
 box-sizing: border-box;
@@ -691,13 +692,13 @@ border-radius: 30px;
 
 input{
 border: none;
-width: 489px;
-height: 45px;
-padding-left: 33px;
+width: 31em;
+height: 3em;
+padding-left: 2em;
 border-radius: 30px;
 }
 .form__body{
-margin: 35px auto 35px auto;
+margin: 2em auto 2em auto;
 }
 
 
@@ -705,8 +706,8 @@ margin: 35px auto 35px auto;
 border:none;
 color: #ffffff;
 position: absolute;
-width: 190px;
-height: 45px;
+width: 12em;
+height: 3em;
 background: #4985FF;
 box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
 border-radius: 0px 30px 30px 0px;
